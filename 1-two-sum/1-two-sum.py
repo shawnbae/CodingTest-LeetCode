@@ -1,10 +1,10 @@
 class Solution:
    def twoSum(self, nums, target):
-       seen = {}
-       for i, value in enumerate(nums):
-           remaining = target - nums[i]
+       tmp = {}
+       for i, val in enumerate(nums):
+           res = target - nums[i]
            
-           if remaining in seen:
-               return [i, seen[remaining]]
+           if res in tmp:
+               return [i, tmp[res]]
             
-           seen[value] = i 
+           tmp[val] = i 
