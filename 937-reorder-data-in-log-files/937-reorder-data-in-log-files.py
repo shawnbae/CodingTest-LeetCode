@@ -9,4 +9,3 @@ class Solution:
                 
         letters.sort(key=lambda x: (x.split()[1:], x.split()[0]))
         return letters+digits
-            
