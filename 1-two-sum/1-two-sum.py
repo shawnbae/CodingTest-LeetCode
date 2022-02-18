@@ -7,4 +7,4 @@ class Solution:
            if res in tmp:
                return [i, tmp[res]]
             
-           tmp[val] = i 
+           tmp[val] = i
